@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "db": "mongod",
+    "db": "mongod --dbpath /Users/jonlazarini/Desktop/mongoT/data",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jon Laz <jonathan.lazarini@wanadoo.fr>",
