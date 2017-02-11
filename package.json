@@ -1,0 +1,26 @@
+{
+  "name": "mongot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "db": "mongod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Laz <jonathan.lazarini@wanadoo.fr>",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "2.5.5",
+    "express": "4.14.1",
+    "mongod": "2.0.0"
+  },
+  "dependencies": {
+    "body-parser": "1.16.1",
+    "ejs": "2.5.5",
+    "express": "4.14.1",
+    "mongodb": "2.2.22",
+    "morgan": "1.8.1",
+    "path": "0.12.7"
+  }
+}
